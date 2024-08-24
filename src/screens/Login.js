@@ -132,7 +132,7 @@ const LoginScreen = ({ navigation }) => {
 }
 
 const styles = StyleSheet.create({
-  // Add your styles here
+  
 });
 
 export default LoginScreen;

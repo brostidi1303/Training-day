@@ -31,7 +31,7 @@ const AllProgram = () => {
                 });
                 setPrograms(response.data.programs);
             } else {
-                console.error('Access token not found in AsyncStorage');
+                console.error('Token not found');
             }
         } catch (error) {
             console.error('Error fetching programs:', error);
